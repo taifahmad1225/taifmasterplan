@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 170" width="100%" height="100%" fill="none">
+  <!-- Outer Browser Address Bar Mockup Container -->
+  <rect x="2" y="2" width="596" height="166" rx="16" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Browser Chrome Top Dots -->
+  <circle cx="28" cy="24" r="5.5" fill="#ef4444"/>
+  <circle cx="44" cy="24" r="5.5" fill="#f59e0b"/>
+  <circle cx="60" cy="24" r="5.5" fill="#10b981"/>
+  <text x="80" y="28" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" font-weight="600">Chrome / Edge Browser</text>
+
+  <!-- URL Address Bar -->
+  <rect x="20" y="44" width="560" height="42" rx="10" fill="#1e293b" stroke="#25D366" stroke-width="2"/>
+  
+  <!-- Lock / Padlock icon -->
+  <g transform="translate(32, 54)">
+    <rect x="2" y="9" width="16" height="12" rx="2.5" fill="#10b981"/>
+    <path d="M5 9V6a5 5 0 0 1 10 0v3" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="10" cy="15" r="1.5" fill="#0f172a"/>
+  </g>
+
+  <!-- URL text -->
+  <text x="60" y="70" font-family="system-ui, monospace" font-size="13" fill="#cbd5e1" font-weight="500">https://aimaster.pk</text>
+
+  <!-- Microphone / Site Permissions Indicator Highlighted in Address Bar -->
+  <g transform="translate(528, 52)">
+    <!-- Glowing ring -->
+    <rect x="-4" y="-3" width="34" height="34" rx="8" fill="#25D366" fill-opacity="0.25" stroke="#25D366" stroke-width="1.5"/>
+    <!-- Mic icon inside address bar -->
+    <path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z" fill="#25D366"/>
+    <path d="M18 10v1a6 6 0 0 1-12 0v-1M12 17v4M8 21h8" stroke="#25D366" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Permission Callout Bubble Pointing Up -->
+  <rect x="180" y="100" width="400" height="54" rx="12" fill="#022c22" stroke="#25D366" stroke-width="1.5"/>
+  <polygon points="542,100 550,92 558,100" fill="#022c22" stroke="#25D366" stroke-width="1.5"/>
+  
+  <text x="560" y="122" font-family="'Noto Nastaliq Urdu', system-ui, sans-serif" font-size="13" fill="#34d399" font-weight="700" text-anchor="end" dir="rtl">
+    1. اوپر ایڈریس بار میں اس مائیک / لاک پر کلک کریں
+  </text>
+  <text x="560" y="142" font-family="'Noto Nastaliq Urdu', system-ui, sans-serif" font-size="12" fill="#f8fafc" font-weight="600" text-anchor="end" dir="rtl">
+    2. مائیکروفون کے سامنے <tspan fill="#4ade80" font-weight="bold">"Allow" (اجازت دیں)</tspan> منتخب کریں
+  </text>
+</svg>

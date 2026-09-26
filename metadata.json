@@ -1,0 +1,6 @@
+{
+  "name": "AI Master.pk",
+  "description": "پاکستان کا سب سے بڑا اردو AI پورٹل - AI ڈاکٹر سے پوچھیں، 25 کیٹیگریز کے بہترین AI ٹولز، PKR قیمتیں اور پرامپٹس۔",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
